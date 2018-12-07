@@ -1,0 +1,5 @@
+node_modules/
+bin/
+package-lock.json
+index.out.js
+index.js

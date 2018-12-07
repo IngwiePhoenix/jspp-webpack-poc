@@ -1,0 +1,4 @@
+node_modules/
+bin/
+index.out.js
+index.js

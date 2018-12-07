@@ -1,0 +1,8 @@
+// Defining WebPack functions as external.
+// Those will be picked up by it's AST traversal.
+external require;
+// external import; <- Error.
+external console;
+
+external add = require("./someModule");
+console.log(add(2, 2));
